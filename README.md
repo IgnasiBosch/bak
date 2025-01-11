@@ -25,7 +25,7 @@ The base path for the remote path is the default bucket set in the configuration
 
 ## Download files
 
-To download files from the S3 bucket, you can run the following command:
+To download files from the S3 bucket, you can run the following command:  
 `$ ./bak download /remote/path/to/file /path/to/file`
 
 It will automatically decrypt the file if it was encrypted before uploading.  
